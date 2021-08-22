@@ -1,0 +1,50 @@
+.icon-add {
+    width: 16px;
+    height: 16px;
+    background-image: url('../../assets/icon/add.png');
+    background-position: center;
+}
+.icon-search {
+    background: url('../../assets/icon/Sprites.64af8f61.svg') no-repeat -992px -360px;
+	width: 16px;
+	height: 16px;
+}
+.icon-save {
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+.far .fa-save {
+    display: block;
+    color: white;
+    width: 16px;
+    height: 16px;
+} 
+.icon-refresh {
+    background: url('../../assets/icon/Sprites.64af8f61.svg') no-repeat -425px -201px;
+	width: 21px;
+	height: 23px;
+    margin: auto;
+}
+.icon-question {
+    background: url('../../assets/icon/Sprites.64af8f61.svg') no-repeat -832px -462px;
+	width: 36px;
+	height: 36px;
+}
+.icon-error {
+    background: url('../../assets/icon/Sprites.64af8f61.svg') no-repeat -24px -954px;
+	width: 48px;
+	height: 48px;
+}
+.icon-warning {
+    background: url('../../assets/icon/Sprites.64af8f61.svg') no-repeat -592px -456px;
+	width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+}
+.icon-3-stripes {
+    background: url('../../assets/icon/Sprites.64af8f61.svg') no-repeat -847px -35px;
+	width: 16px;
+	height: 14px;
+}

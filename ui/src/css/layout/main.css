@@ -1,0 +1,65 @@
+body {
+    font-family: NotoSans-Regular;
+    font-size: 13px;
+    color: #111;
+    background-color: #f4f5f8;
+}
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../../assets/font/GoogleSans-Regular.otf');
+}
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('../../assets/font/GoogleSans-Bold.otf');
+}
+@font-face {
+    font-family: 'GoogleSans-Italic';
+    src: url('../../assets/font/GoogleSans-Italic.otf');
+}
+@font-face {
+    font-family: 'GoogleSans-Light';
+    src: url('../../assets/font/GoogleSans-Light.otf');
+}
+@font-face {
+    font-family: 'NotoSans-Regular';
+    src: url('../../assets/font/notosans-regular.2cb88a13.woff2');
+}
+@font-face {
+    font-family: 'NotoSans-Bold';
+    src: url('../../assets/font/notosans-bold.3ede5aff.woff2');
+}
+@font-face {
+    font-family: 'NotoSans-Italic';
+    src: url('../../assets/font/notosans-italic.1c1aaac9.woff2');
+}
+@font-face {
+    font-family: 'NotoSans-Semibold';
+    src: url('../../assets/font/notosans-semibold.df3e6dc4.woff2');
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height:100%;
+    max-width:100%;
+}
+button {
+    cursor: pointer;
+    font-family: NotoSans-Regular;
+}
+@import url('../common/button.css');
+
+@import url('../common/grid.css');
+@import url('../common/icon.css');
+@import url('../common/input.css');
+@import url('../common/popup.css');
+@import url('../common/toolbar.css');
+.text-align-right {
+    text-align: right;
+}
+.text-align-center {
+    text-align: center;
+}
+

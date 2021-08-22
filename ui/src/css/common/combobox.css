@@ -1,0 +1,84 @@
+.combobox {
+    display: flex;
+    position: relative;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    width: 100%;
+    height: 32px;
+}
+
+.combobox .combobox-text {
+    height: 100%;
+    width: calc(100% - 32px);
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+.combobox button {
+    height: 100%;
+    width: 32px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.combobox button:hover{
+    background-color: #E9EBEE;
+}
+.border-red {
+    border: 1px solid #ff4747;
+}
+.combobox .icon-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    background: url('../../assets/icon/Sprites.64af8f61.svg') no-repeat -564px -365px;
+	width: 8px;
+	height: 5px;
+    transition: transform .3s linear;
+  }
+  .combobox .reverse {
+    transform: translateX(-50%) translateY(-50%) rotate(180deg);
+    transition: transform .3s linear;
+  }
+.combobox .combobox-list {
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    z-index: 100;
+    background-color: #fff;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    padding: 2px 0;
+}
+.bottom-list {
+    top: calc(100% + 2px);
+}
+.top-list {
+    bottom: calc(100% + 2px);
+   
+}
+.combobox .combobox-list .combobox-item {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+}
+.combobox .combobox-list .combobox-item:hover {
+    background-color: #ebedf0;
+    color: #2ca01c;
+}
+.combobox .selected {
+    background-color: #2ca01c !important;
+    color: #fff !important;
+    position: relative;
+    align-items: center;
+    line-height: 32px;
+}
+
+.focus-item {
+    background-color: #ebedf0;
+}
+.cbx-active {
+    border-color: #2ca01c;
+}

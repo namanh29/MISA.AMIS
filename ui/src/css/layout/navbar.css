@@ -1,0 +1,132 @@
+.navbar {
+    
+    min-width:210px;
+    background-color: #393a3d;
+    border-right: 1px solid #e5e5e5;
+    height: 100vh;
+    
+}
+
+    .navbar .logo-site {
+        display: flex;
+        width: 100%;
+        height: 48px;
+        align-items: center;
+    }
+    
+        /* Logo site */
+        .navbar .logo-site .toggle-icon {
+            
+            margin: 12px 16px 12px 16px;
+            background: url('../../assets/icon/Sprites.64af8f61.svg') no-repeat -1157px -32px;
+            min-width: 16px;
+            height: 16px;
+            filter: brightness(0) invert(1);
+        }
+        .navbar .logo-site .cukcuk-logo {
+            width: 100%;
+            height: 32px;
+            margin: auto;
+            
+            line-height: 24px;
+            background-image: url('../../assets/img/Logo_Module_TiengViet_White.66947422.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+        
+    .navbar .navbar-content {
+        width: 100%;
+        height: calc(100vh - 48px);
+        overflow: auto;
+        padding-top: 14px;
+    }
+        .navbar .navbar-content .nav-item {
+            text-decoration: none;
+            color: #fff;
+            display: flex;
+            padding-left: 10px;
+            padding-right: 16px;
+            height: 44px;
+            line-height: 44px;
+            border-left: 6px solid transparent;
+        }
+        .navbar .navbar-content .nav-item:hover {
+            background-color: rgba(235,237,240,.2) ;
+
+            cursor: pointer;
+        }
+        .navbar .navbar-content .nav-item:active {
+            background-color: rgba(235,237,240,.2);
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .nav-item .navbar-item-icon {
+            background-image: url('../../assets/icon/Sprites.64af8f61.svg') ;
+            width: 24px;
+            height: 24px;
+            align-self: center;
+            margin-right: 10px;
+            
+            /* filter: brightness(0) invert(1); */
+        }
+        .dashboard {
+            background-position: -30px -1628px;
+        }
+        
+        .employee {
+            background-position: -73px -1628px;
+        }
+        .bank {
+            background-position: -117px -1628px;
+        }
+        .bag {
+            background-position: -161px -1628px;
+        }
+        .cart {
+            background-position: -204px -1628px;
+        }
+        .invoice {
+            background-position: -249px -1628px;
+        }
+        .stock {
+            background-position: -291px -1628px;
+        }
+        .tools {
+            background-position: -336px -1628px;
+        }
+        .fixed-assets {
+            background-position: -378px -1630px;
+        }
+        .tax {
+            background-position: -423px -1630px;
+        }
+        .general {
+            background-position: -510px -1628px;
+        }
+        .budget {
+            background-position: -378px -1659px;
+        }
+        .price {
+            background-position: -467px -1628px;
+        }
+        .report {
+            background-position: -547px -1628px;
+        }
+        .finance {
+            background-position: -204px -1664px;
+        }
+        
+        .user {
+            background-position: -120px -1664px;
+        }
+        .navbar-content::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .navbar-content::-webkit-scrollbar-thumb {
+            background: #b8bcc3;
+        }
+        ::-webkit-scrollbar-track-piece {
+            background: #f1f1f1;
+        }
